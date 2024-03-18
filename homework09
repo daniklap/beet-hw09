@@ -1,0 +1,107 @@
+#9 Homework for Lesson 9 for Friday 9 Feb 2024 by Daniel Clapa
+
+Lesson 9 Homework, #1 and #2 above in TestRail, at least 2 functional and 2 non-functional test cases:
+
+[HW 9] JPetStore Web App
+https://beetrootqa2024.testrail.io/index.php?/suites/view/73&group_by=cases:section_id&group_order=asc&display_deleted_cases=0
+
+#3 - 2 bugs in Jira: 
+[SCRUM-55] [HW 9 JPetStore] Attempting to recreate an existing account gets no descriptive error message - Jira (atlassian.net) 
+
+[SCRUM-59] After a product is found in Search add it to cart in one step - Jira (atlassian.net) 
+
+
+Task 2 from LMS:
+
+2. The following statement is about decision coverage:
+
+When the code has a single 'IF' condition and no loops (LOOP) or switches
+(CASE), any test we run will result in 50% decision coverage.
+
+Which option is true about this statement?
+a. Correct. Any test case provides 100% coverage of statements, thus
+covering 50% of solutions.
+b. Correct. The result of any IF condition test will be either true or false.
+c. Incorrect. A single test case can guarantee 25% coverage of the solutions
+in this case.
+d. Incorrect, because it is too general a statement. We cannot know if it is
+correct as it depends on the software being tested.
+
+3. There’s the following pseudocode: Switch PC on -> Start MS Word -> IF MS Word
+starts THEN -> Write a poem -> Close MS Word.
+
+How many test cases will it take to test its functionality?
+a. 1 for operator coverage, 2 for decision coverage
+b. 1 for operator coverage, 1 for decision coverage
+c. 2 for operator coverage, 2 for decision coverage
+d. 2 for operator coverage, 1 for decision coverage
+
+4. How many tests are needed to check code statements:
+
+
+a. 2
+b. 1
+c. 3
+d. 4
+
+
+
+Task 3 from LMS:
+
+We continue working on a startup for a cat photo sharing app.
+
+There’s the following algorithm:
+
+Ask what kind of pet the user has. [Q1]
+
+If the user answers that they have a cat, 
+then ask what breed it is: "short-haired or long-haired?" [Q2]
+
+If the user answers "long-haired", 
+then ask: "Would you like to get the contacts of the nearest groomer?" [Q3]
+
+If the user answers "yes", 
+then say: "Give me the address of the nearest cat grooming salon."
+else
+Say: "Suggest a shop with fur care products"
+end
+else
+Say "Suggest a pet shop"
+end
+
+If the user has no cat
+Say "Come back when you decide to get a cat"
+end
+
+Assignment:
+
+1. Draw an algorithm diagram (in a tool of your choice, for example, in the built-in
+Google Docs editor, figjam, or other.)
+
+Diagram below:
+
+
+2. What is the minimum set of test cases needed to make sure that: 
+all questions have been asked, 
+all combinations have been passed, and 
+all answers have been obtained?
+
+Answer: 6 ← incorrect. Correct answer is: 4. 
+
+FEEDBACK from Instructor: 
+
+Hi Daniel, Below is my feedback: 
+Test cases: About the test cases for the Jpet store: Overall, good job with the Functional and Non-Functional test cases and the section dividing in the test suite. Good about the test run – put in the failed cases only the bug ID, not the whole link. 
+
+About the bugs for the Jpet store: Also, very good job with the bug reports. Just try to add the screenshots in the bug description as well – whether in the steps or in the actual result. 
+
+Level 2 from LMS: 
+Task 2: Correct answer – B. 
+
+Task 3: Correct answer – D. 2 for operator coverage, 1 for decision coverage. We have 1 IF statement and 2 operators -> Open and Close. 
+
+Task 4: Correct answer – 4. 
+
+Level 3 from LMS: Very nice and correct diagram. Suggest to learn how to use Figma.
+
+The minimum amount of test cases is 4 😊
